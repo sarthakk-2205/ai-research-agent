@@ -1,0 +1,28 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+
+# Environment and secrets
+.env
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local database
+research_history.db
+*.db
+
+# Generated reports
+reports/
+
+# IDE and OS
+.vscode/
+.DS_Store
+
+# Chroma database
+chroma_db/
