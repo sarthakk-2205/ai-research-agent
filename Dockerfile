@@ -16,3 +16,6 @@ COPY . .
 
 # API and Streamlit ports
 EXPOSE 8000 8501
+
+
+CMD ["sh", "-c", "uvicorn app.api:app --host 0.0.0.0 --port ${PORT:-10000}"]
